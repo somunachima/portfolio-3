@@ -265,7 +265,7 @@ DEPENDENCIES
   autoprefixer-rails
   bootsnap
   capybara
-  cloudinary (~> 1.12.0)
+  cloudinary
   debug
   dotenv-rails
   font-awesome-sass (~> 6.1)
