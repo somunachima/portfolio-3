@@ -1,0 +1,19 @@
+<div class="navbar navbar-expand navbar-light navbar-lewagon">
+  <div class="container-fluid">
+    <%= link_to root_path, class: "navbar-brand" do %>
+      <%= image_tag "Som_Logo.png" %>
+    <% end %>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item active"><a href="home.html" class="nav__link"><%= link_to "Home", root_path, class: "nav-link" %></a></li>
+        <li class="nav-item active"><a href="about.html" class="nav__link"><%= link_to "About", about_path, class: "nav-link" %></a></li>
+        <li class="nav-item active"><a href="resume.html" class="nav__link"><%= link_to "Resume", resume_path, class: "nav-link" %></a></li>
+        <li class="nav-item active" id="email"><a href="mailto:somakudu@gmail.com?subject=Hello!" class="nav__link" target="_blank">Contact</a></li>
+        <li class="nav-item active"><a href="https://www.linkedin.com/in/somakudu/" class="nav__link" target="_blank"><i class="fab fa-linkedin"></i></li>
+        <li class="nav-item active"><a href="https://github.com/somunachima/" class="nav__link" target="_blank"><i class="fab fa-github"></i></a></li>
+
+      </ul>
+    </div>
+  </div>
+</div>
