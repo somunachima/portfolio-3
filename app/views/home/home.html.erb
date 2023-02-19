@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Som Akudu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  </head>
+  <body>
+    <header>
+    </header>
+    <!-- Introduction -->
+    <section class="container-portfolio">
+      <div class="top-back">
+        <div class="section-title">
+          <div class="profile-img-section">
+            <%= cl_image_tag "som", height: 300, width: 230 %>
+          </div>
+          <div class="slogan">
+            <h1 >
+              <strong class="name">Hey, I'm Som.</strong><br>I'm a <u>Fullstack <br>Developer</u> based out <br>of London, UK.
+            </h1>
+            <h6 class="btn-simple"><a href="mailto:somakudu@gmail.com?subject=Hello!" target="_blank"><strong>Get in touch →</strong></a></h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section class=portfolio-back>
+      <div class="portfolio-section">
+        <div>
+          <a href="https://www.scanher.co.uk/" target="_blank">
+            <h2 class="project-name">scan<em>Her</em></h2>
+            <p class="project-tags">Product, Web, Branding, Healthtech</p>
+            <div class="project-card">
+              <%= cl_image_tag "scanher", height: 310, width: 505 %>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/AranSeehra/gyota" target="_blank">
+            <h2 class="project-name">Get Your Own Teaching Assistant</h2>
+            <p class="project-tags">Web, Edtech</p>
+            <div class="project-card">
+              <%= cl_image_tag "gyota", height: 310, width: 505 %>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/somunachima/rails-watch-list" target="_blank">
+            <h2 class="project-name">Movie Watchlist</h2>
+            <p class="project-tags">Web, Entertainment</p>
+            <div class="project-card-movie">
+              <i class="fa-solid fa-clapperboard"></i>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/somunachima/rails-yelp-mvp" target="_blank">
+            <h2 class="project-name">Yelp Clone</h2>
+            <p class="project-tags">Lifestyle</p>
+            <div class="project-card">
+              <%= cl_image_tag "yelp", height: 330, width: 505 %>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/somunachima/rails-task-manager" target="_blank">
+            <h2 class="project-name">Task Manager</h2>
+            <p class="project-tags">Lifestyle</p>
+            <div class="project-card-task">
+              <i class="fa-solid fa-clipboard-list"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
